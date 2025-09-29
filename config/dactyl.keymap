@@ -13,6 +13,40 @@
 #define RAISE 2
 #define ADJUST 3
 
+/ {
+    macros {
+        tmux_n1: tmux_n1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(B) &kp N1>;
+        };
+        tmux_n2: tmux_n2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(B) &kp N2>;
+        };
+        tmux_n3: tmux_n3 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(B) &kp N3>;
+        };
+        tmux_n4: tmux_n4 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(B) &kp N4>;
+        };
+        vim_write: vim_write {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp ESC &kp COLON &kp W &kp ENTER>;
+        };
+        gg: gg {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp G &kp G>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
