@@ -63,8 +63,8 @@
 &kp LEFT_BRACKET  &kp B   &kp Y                 &kp O                  &kp U             &kp APOS        &kp C_BRI_DEC  &kp N5        &kp C_BRI_INC    &kp SEMI       &kp L        &kp D          &kp W             &kp V   &kp RIGHT_BRACKET
 &lt 3 Z           &kp C   &kp I                 &kp E                  &lt 2 A           &kp COMMA       &kp EQUAL      &kp NUMBER_2  &kp EXCL         &kp DOT        &kp H        &kp T          &kp S             &kp N   &kp Q
 &kp LALT          &kp G   &kp X                 &kp J                  &kp K             &kp MINUS       &none          &kp NUMBER_3  &none            &kp SLASH      &kp R        &kp M          &kp F             &kp P   &kp LALT
-&kp A             &kp B   &kp C                 &kp D                  &kp E             &kp F           &kp G          &kp NUMBER_1  &kp H            &kp I          &kp J        &kp K          &kp L             &kp M   &kp N
-&kp N1            &kp N2  &kp N3                &kp N4                 &kp N5            &kp N6          &kp N7         &none         &kp N8           &kp N9         &kp N0       &kp MINUS      &kp EQUAL         &kp LBKT &kp RBKT
+&none             &none   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &lt 1 ENTER       &none           &none          &kp NUMBER_1  &kp BACKSPACE    &none          &kp TAB        &lt 1 ESC      &kp PIPE          &kp F   &none
+&none             &kp LCTRL  &none                 &kp LEFT               &none             &kp LEFT_SHIFT  &none         &none         &none            &lt 1 SPACE   &none        &none          &none             &none   &none
             >;
         };
 
