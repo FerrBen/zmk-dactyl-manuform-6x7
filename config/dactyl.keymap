@@ -59,12 +59,12 @@
             // LEFT HAND                                                      5-WAY SWITCH      RIGHT HAND
 
             bindings = <
-&kp GRAVE  &kp N1  &kp N2  &kp N3    &kp N4  &kp N5     &kp C_VOL_DN    &kp C_VOLUME_UP  &kp N6    &kp N7  &kp N8                &kp N9                 &kp N0  &kp BSPC
-&kp LBKT   &kp B   &kp Y   &kp O     &kp U   &kp APOS   &kp APOS        &kp C_BRI_DEC    &kp SEMI  &kp L   &kp D                 &kp W                  &kp V   &kp RBKT
-&kp Z      &kp C   &kp I   &kp E     &kp A   &kp COMMA  &kp EQUAL       &kp COMMA        &kp DOT   &kp H   &kp T                 &kp S                  &kp N   &kp Q
-&kp LALT   &kp G   &kp X   &kp J     &kp K   &kp MINUS                                   &kp J     &kp K   &kp FSLH              &kp R                  &kp M   &kp F
-                   &kp P   &kp LALT  &kp A   &kp B      &kp C           &kp D            &kp E     &kp F   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp P   &kp Q
-                   &kp R   &kp S     &kp T   &kp G      &kp H           &kp I            &kp J     &kp K   &kp L                 &kp M                  &kp N   &kp O
+&kp GRAVE  &kp N1  &kp N2                &kp N3                 &kp N4          &kp N5            &kp C_VOL_DN            &kp C_VOLUME_UP       &kp N6             &kp N7     &kp N8             &kp N9      &kp N0   &kp BSPC
+&kp LBKT   &kp B   &kp Y                 &kp O                  &kp U           &kp APOS          &kp C_BRIGHTNESS_DEC    &kp C_BRIGHTNESS_INC  &kp SEMI           &kp L      &kp D              &kp W       &kp V    &kp RBKT
+&kp Z      &kp C   &kp I                 &kp E                  &kp A           &kp COMMA         &kp EQUAL               &kp EXCL              &kp DOT            &kp H      &kp T              &kp S       &kp N    &kp Q
+&kp LALT   &kp G   &kp X                 &kp J                  &kp K           &kp MINUS                                                       &kp SLASH          &kp R      &kp M              &kp F       &kp P    &kp RALT
+                   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp A           &kp B             &kp C                   &kp D                 &kp E              &kp F      &kp BACKSLASH      &kp PIPE    &kp TAB  &kp Q
+                   &kp ENTER             &kp LEFT_COMMAND       &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp H                   &kp BACKSPACE         &kp RIGHT_COMMAND  &kp SPACE  &kp RIGHT_CONTROL  &kp ESCAPE  &kp N    &kp O
             >;
         };
 
