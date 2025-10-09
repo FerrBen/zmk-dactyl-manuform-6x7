@@ -82,7 +82,7 @@
 &kp Z      &kp C         &kp I           &kp E             &kp A           &kp COMMA         &kp EQUAL               &kp EXCL              &kp DOT            &kp H          &kp T              &kp S           &kp N          &kp Q
 &kp LALT   &kp G         &kp X           &kp J             &kp K           &kp MINUS                                                       &kp SLASH          &kp R          &kp M              &kp F           &kp P          &kp BACKSLASH
            &kp LEFT_ALT  &kp LEFT_ARROW  &kp RIGHT_ARROW                                                                                                                     &kp UP_ARROW       &kp DOWN_ARROW  &kp RIGHT_ALT
-                         &kp ENTER       &kp LEFT_COMMAND  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp TAB                 &kp ESCAPE            &kp RIGHT_CONTROL  &kp BACKSPACE  &kp RIGHT_COMMAND  &kp SPACE
+                         &lt 2 ENTER     &kp LEFT_COMMAND  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp TAB                 &kp ESCAPE            &kp RIGHT_CONTROL  &kp BACKSPACE  &kp RIGHT_COMMAND  &lt 1 SPACE
             >;
         };
 
