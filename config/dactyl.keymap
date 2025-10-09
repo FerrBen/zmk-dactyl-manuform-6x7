@@ -47,6 +47,27 @@
             #binding-cells = <0>;
             bindings = <&kp G &kp G>;
         };
+
+        move_line_up: move_line_up {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp V &kp LS(U) &kp ESCAPE>;
+            label = "MOVE_LINE_UP";
+        };
+
+        move_line_down: move_line_down {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp V &kp LS(D) &kp ESCAPE>;
+            label = "MOVE_LINE_DOWN";
+        };
+
+        vim_wqa: vim_wqa {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp ESC &kp COLON &kp W &kp Q &kp A &kp ENTER>;
+            label = "VIM_WQA";
+        };
     };
 
     keymap {
@@ -73,6 +94,17 @@
 &trans  &kp N6    &kp N7  &kp N8    &kp N9      &kp N0                         &kp UNDER  &kp PLUS   &kp TILDE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
         &trans    &trans  &trans                                                                     &trans     &trans                &trans
                   &trans  &trans    &trans      &trans       &trans    &trans  &trans     &trans     &trans     &trans
+            >;
+        };
+
+        layer_2 {
+            bindings = <
+&trans  &trans    &trans    &trans    &trans    &trans  &trans    &trans      &trans         &trans          &trans                     &trans                    &trans  &trans
+&trans  &trans    &trans    &trans    &trans    &trans  &trans    &vim_wqa    &move_line_up  &kp LC(D)       &kp LC(U)                  &move_line_down           &trans  &trans
+&trans  &tmux_n1  &tmux_n2  &tmux_n3  &tmux_n4  &trans  &trans    &vim_write  &kp LEFT       &kp DOWN_ARROW  &kp UP_ARROW               &kp RIGHT                 &trans  &trans
+&trans  &trans    &trans    &trans    &trans    &trans                        &kp N0         &kp LS(G)       &gg                        &kp DOLLAR                &trans  &trans
+        &trans    &trans    &trans                                                                           &kp LS(LC(RIGHT_BRACKET))  &kp LS(LC(LEFT_BRACKET))  &trans
+                  &trans    &trans    &trans    &trans  &trans    &trans      &trans         &trans          &trans                     &trans
             >;
         };
     };
