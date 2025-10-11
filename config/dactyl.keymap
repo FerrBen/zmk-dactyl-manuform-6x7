@@ -82,7 +82,7 @@
 &kp Z      &kp C         &kp I           &kp E             &kp A           &kp COMMA         &kp EQUAL               &kp EXCL              &kp DOT            &kp H          &kp T              &kp S           &kp N          &kp Q
 &kp LALT   &kp G         &kp X           &kp J             &kp K           &kp MINUS                                                       &kp SLASH          &kp R          &kp M              &kp F           &kp P          &kp BACKSLASH
            &kp LEFT_ALT  &kp LEFT_ARROW  &kp RIGHT_ARROW                                                                                                                     &kp UP_ARROW       &kp DOWN_ARROW  &kp RIGHT_ALT
-                         &lt 2 ENTER     &kp LEFT_COMMAND  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp TAB                 &kp ESCAPE            &kp RIGHT_CONTROL  &kp BACKSPACE  &kp RIGHT_COMMAND  &lt 1 SPACE
+                         &lt 2 ENTER     &kp LEFT_COMMAND  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp TAB                 &kp ESCAPE            &kp RIGHT_CONTROL  &kp BACKSPACE  &kp RIGHT_COMMAND  &lt 3 SPACE
             >;
         };
 
@@ -105,6 +105,17 @@
 &trans  &trans    &trans    &trans    &trans    &trans                        &kp N0         &kp LS(G)       &gg                        &kp DOLLAR                &trans  &trans
         &trans    &trans    &trans                                                                           &kp LS(LC(RIGHT_BRACKET))  &kp LS(LC(LEFT_BRACKET))  &trans
                   &trans    &trans    &trans    &trans  &trans    &trans      &trans         &trans          &trans                     &trans
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+&kp TILDE  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp QUESTION  &trans      &trans  &kp TILDE         &kp DOLLAR  &kp HASH  &kp AT  &kp EXCL   &kp CARET
+&kp SLASH  &kp LEFT_BRACE    &kp GRAVE             &kp SINGLE_QUOTE       &kp RIGHT_BRACE    &kp AT        &trans      &trans  &kp LESS_THAN     &kp N7      &kp N8    &kp N9  &kp COLON  &kp PERCENT
+&kp POUND  &kp CARET         &kp DOUBLE_QUOTES     &kp UNDER              &kp DOLLAR         &kp PERCENT   &trans      &trans  &kp GREATER_THAN  &kp N4      &kp N5    &kp N6  &kp MINUS  &kp PLUS
+&kp EXCL   &kp LESS_THAN     &kp MINUS             &kp EQUAL              &kp GREATER_THAN   &kp PLUS                          &kp EQUAL         &kp N1      &kp N2    &kp N3  &kp SLASH  &kp ASTRK
+           &trans            &kp AMPERSAND         &kp PIPE                                                                                                  &kp N0    &trans  &trans
+                             &kp BACKSLASH         &kp ASTERISK           &kp COLON          &kp PERIOD    &kp SEMI    &trans  &kp COMMA         &trans      &trans    &trans
             >;
         };
     };
